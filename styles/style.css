@@ -57,13 +57,14 @@ body {
 .send-btn {
   margin-top: 20px;
   background: #4ba5a5;
+  border: none;
   width: 202px;
   height: 48px;
-  border: none;
   padding: 12px 25px;
   border-radius: 25px;
   color: white;
-  font-weight: bold; 
+  font-weight: bold;
+
 }
 
 .send-btn:hover {
@@ -80,5 +81,4 @@ body {
 
 .form-right img {
   width: 250px;
-  
 }
