@@ -11,6 +11,9 @@ body {
 .form-container {
   display: flex;
   width: 800px;
+  height: 594px;
+  line-height: 50px;
+  justify-content: center;
   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
@@ -74,11 +77,21 @@ body {
 .form-right {
   background: #f7a531;
   flex: 1;
+  width: 600px;
+  height: 594px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.form-right img {
-  width: 250px;
+.form-right{
+  max-width: 250px;
+  width: 100%;
+}
+
+.Duck-align{
+  display: flex;
+  width: 663px;
+  height: 450px;
+  
 }
